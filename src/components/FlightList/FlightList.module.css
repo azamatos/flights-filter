@@ -1,0 +1,14 @@
+.flightList {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.flightList :last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .flightList {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,92 @@
+.filter {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px 0;
+  z-index: 1000;
+}
+
+.currency {
+  padding: 0 20px;
+}
+
+.filter h2 {
+  font-size: 18px;
+  margin-bottom: 16px;
+  color: #666;
+}
+
+.buttonWrapper {
+  display: flex;
+  height: 48px;
+  width: 100%;
+}
+
+.buttonWrapper :first-child {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-right: 0;
+}
+
+.buttonWrapper :last-child {
+  border-left: 0;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.buttonWrapper button {
+  height: 100%;
+  width: 100%;
+  flex: 1;
+  border: 1px solid #ddd;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 500;
+  color: #0099fb;
+  cursor: pointer;
+}
+
+.buttonWrapper button:hover {
+  background-color: #0099fb1a;
+  border: 1px solid #0099fb;
+}
+
+.buttonWrapper button.active {
+  background-color: #0099fb;
+  color: #fff;
+  border: 1px solid #0099fb;
+}
+
+.checkboxGroup {
+  margin-top: 40px;
+}
+
+.checkboxGroup h2 {
+  padding: 0 20px;
+}
+
+.checkboxGroup button {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 12px 20px;
+}
+
+.checkboxGroup button:hover {
+  background-color: #0099fb1a;
+}
+
+@media (max-width: 768px) {
+  .filter {
+    position: static;
+    margin-bottom: 16px;
+    width: auto;
+  }
+}

@@ -1,0 +1,112 @@
+.flightCard {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
+  padding: 0 24px;
+}
+
+.flightData {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  width: 180px;
+  padding: 16px 24px 28px 0;
+  border-right: 1px solid #eee;
+}
+
+.flightData img {
+  width: 100%;
+  height: 80px;
+}
+
+.flightInfo {
+  display: flex;
+  margin-top: 28px;
+  flex: 1;
+}
+
+.flightDetails {
+  flex: 1;
+  padding-left: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.departure {
+  text-align: left;
+}
+
+.arrival {
+  text-align: right;
+}
+
+.flightStops {
+  flex: 1;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.flightStops span {
+  text-align: center;
+  margin-left: 15%;
+  color: #d1d5d6;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.flightStops hr {
+  display: block;
+  height: 1.5px;
+  width: 100%;
+  margin-left: -12%;
+  border: 0;
+  border-top: 1.5px solid #d1d5d6;
+  padding: 0;
+}
+
+.flightStops img {
+  position: absolute;
+  right: 0;
+  top: 18px;
+}
+
+.flightDetails .time {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.flightDetails .route {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.flightDetails .date {
+  font-size: 14px;
+  font-weight: 400;
+  color: #999;
+}
+
+.flightPrice {
+  text-align: right;
+}
+
+.flightPrice button {
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 16px;
+  width: 100%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.flightPrice button:hover {
+  background-color: #e64a19;
+}
